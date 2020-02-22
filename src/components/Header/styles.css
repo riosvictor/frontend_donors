@@ -1,0 +1,32 @@
+header h1{
+  margin-bottom: 70px;
+  color: #000000cc;
+}
+
+header{
+  text-align: center;
+  margin: 0 auto 70px;
+  width: 90%;
+  max-width: 500px;
+}
+
+header button{
+  margin-top: 8px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+
+  background-color: #ff4f4f;
+  color: white;
+  font-weight: bold;    
+}
+
+header .logo{
+  width: 120px;
+  margin: 70px 0;
+
+}
+
+header p{
+  font-size: 14px;
+}

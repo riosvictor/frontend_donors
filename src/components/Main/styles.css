@@ -1,0 +1,50 @@
+main{
+  text-align: center;
+  margin: 0 auto 70px;
+  width: 90%;
+  max-width: 500px;
+}
+
+main h2{
+  margin-bottom: 70px;
+}
+
+main h2 span{
+  color: #ff4f4f;
+}
+
+main .donors{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.blood{
+  color: #ff4f4f;
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.blood::before{
+  content: "";
+  background-color: #ff4f4f11;
+
+  width: 40px;
+  height: 40px;
+
+  position: absolute;
+
+  /*fazer gotinha*/
+  border-radius: 50%;
+  border-top-right-radius: 0;
+  transform: rotate(-45deg);
+}
+
+.donor p{
+  margin-top: 24px;
+  margin-bottom: 64px;
+  font-size: 14px;
+}
