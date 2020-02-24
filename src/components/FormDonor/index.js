@@ -13,6 +13,9 @@ function FormDonor(props) {
       name,
       email,
       blood
+    })
+    .then(function (response) {
+      response.redirect('/');
     });
     
     setName('');
